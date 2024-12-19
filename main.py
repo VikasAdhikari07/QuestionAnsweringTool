@@ -28,7 +28,7 @@ main_placeholder = st.empty()
 if process_url_clicked:
 
     load_data(urls=urls, file_path=file_path)
-    main_placeholder.text_input("Data is loading...")
+
 
 query = main_placeholder.text_input("Question: ")
 
